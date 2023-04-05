@@ -710,7 +710,6 @@ header .menuToggler{
     z-index: -1;
     visibility: hidden;
     opacity: 0;
-    background: url(../images/bg/1.jpg) no-repeat center center / cover;
     transition: all ease 400ms;
     -moz-transition: all ease 400ms;
     -webkit-transition: all ease 400ms;
@@ -932,7 +931,6 @@ header .menuToggler{
     margin: 8px 0 0;
     padding: 39px 40px;
     max-width: 247px;
-    background: url(../images/bg/7.jpg) no-repeat center center / cover;
 }
 .expCounter:before{
     position: absolute;
