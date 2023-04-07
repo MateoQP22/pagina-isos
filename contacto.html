@@ -96,14 +96,14 @@
     </header>
     <!-- Header End -->
 
-    <!-- Appoinment Start -->
-    <section class="appoinmentSection01" style="padding-top: 100px;">
+    <!-- Contact Form Start -->
+    <section class="contactSection">
         <div class="container largeContainer">
             <div class="row">
-                <div class="col-xl-6">
+                <div class="col-md-8">
                     <div class="appointment_form">
-                        <p>¿Quisiera comunicarse con nosotros?</p>
-                        <h3>Puede escribirnos un mensaje directo a nuestro correo</h3>
+                        <p>Su email no será publicado*</p>
+                        <h3>Envíenos un mensaje</h3>
                         <form action="#" method="post" class="row" id="contact_form">
                             <div class="input-field col-md-6">
                                 <i class="twi-user2"></i>
@@ -113,13 +113,9 @@
                                 <i class="twi-envelope2"></i>
                                 <input class="required" type="email" name="con_email" placeholder="Dirección Email">
                             </div>
-                            <div class="input-field col-md-6">
-                                <i class="twi-map-marker-alt2"></i>
-                                <input type="text" name="con_location" placeholder="¿De dónde es usted?">
-                            </div>
-                            <div class="input-field col-md-6">
+                            <div class="input-field icRight col-md-12">
                                 <select class="required" name="con_subject">
-                                    <option selected="selected">Categoría</option>
+                                    <option selected="selected">Seleccione una Categoría</option>
                                     <option>Isos Consultoria</option>
                                     <option>Isos Vigilancia</option>
                                     <option>Isos Monitoreo</option>
@@ -129,9 +125,14 @@
                                 </select>
                             </div>
                             <div class="input-field col-md-12">
-                                <i class="twi-comment-lines2"></i>
-                                <textarea class="required" name="con_message"
-                                    placeholder="Descripción de su mensaje"></textarea>
+                                <i class="twi-pen2"></i>
+                                <textarea class="required" name="con_message" placeholder="Déjenos un mensaje"></textarea>
+                            </div>
+                            <div class="col-md-7 input-field">
+                                <label>
+                                    <input type="checkbox" name="subscribe" value="Also subscribe us">
+                                    <span class="wpcf7-list-item-label">Estoy de acuerdo en recibir e-mails de promociones.</span>
+                                </label>
                             </div>
                             <div class="input-field col-md-12">
                                 <button type="submit" class="qu_btn">Enviar</button>
@@ -140,15 +141,17 @@
                         </form>
                     </div>
                 </div>
-                <div class="col-lg-4" style="left:20%; margin-right: 50px;">
-                    <div class="abthumb" style="bottom: -29px; right: 50px;">
-                        <img src="assets/images/personaje_Mesa de trabajo 1.png" style="background-size: cover;">
+                <div class="col-md-4">
+                    <div class="chatNow">
+                        <h4>¡Esperamos su mensaje!</h4>
+                        <p>Intentaremos responder a la brevedad posible</p>
+                        <a href="javascript:void(0);" class="qu_btn">¡Tenga buen día!</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Appoinment End -->
+    <!-- Contact Form End -->
 
     <!-- Copyright Section -->
     <section class="fcopyright">

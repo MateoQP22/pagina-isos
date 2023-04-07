@@ -760,7 +760,8 @@
 .chatNow{
 	position: relative;
 	text-align: center;
-	background: url(../images/bg/16.jpg) no-repeat center center / cover;
+	background: url(../images/personaje_Mesa\ de\ trabajo\ 1.png) no-repeat center center / cover;
+	background-size: 386px 555px;
 	padding: 310px 35px 52px;
 }
 .chatNow h4{
