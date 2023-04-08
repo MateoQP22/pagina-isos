@@ -641,3 +641,24 @@
     });
 
 })(jQuery);
+
+    /*--------------------------------------------------------
+    / 15. Scroll suavizado hacia Servicios
+    /---------------------------------------------------------*/
+    function scrollToSection(section) {
+        const sectionPosition = section.offsetTop;
+        const scrollTop = sectionPosition;
+
+        if (section) {
+            window.scrollTo({
+                top: scrollTop,
+                behavior: 'smooth'
+            });
+        }
+    }
+
+    const btnScroll = document.getElementById('btn-scroll');
+    btnScroll.addEventListener('click', function() {
+        const section = document.querySelector('#sectionService');
+        scrollToSection(section);
+    });
