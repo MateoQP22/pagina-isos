@@ -2759,6 +2759,45 @@ input[type="checkbox"]:checked ~ span:before {
     background: var(--theme-color);
     color: #fff;
 }
+.listItemPolit {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.listItemPolit li {
+    list-style: none;
+    display: inline-flex;
+    width: 100%;
+    color: #1a1a1a;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 0 1px;
+}
+.listItemPolit li i {
+    position: relative;
+    top: 4px;
+    min-width: 25px;
+    height: 25px;
+    background: #fff;
+    color: var(--theme-color);
+    border-radius: 50%;
+    text-align: center;
+    font-size: 14px;
+    line-height: 26px;
+    display: inline-block;
+    margin-right: 15px;
+    -webkit-box-shadow: 0px 2px 46px 0px rgba(13, 30, 53, 0.22);
+    -moz-box-shadow:    0px 2px 46px 0px rgba(13, 30, 53, 0.22);
+    box-shadow:         0px 2px 46px 0px rgba(13, 30, 53, 0.22);
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.listItemPolit li:hover i{
+    background: var(--theme-color);
+    color: #fff;
+}
 .cusRating{
     color: var(--theme-color);
     font-size: 18px;
