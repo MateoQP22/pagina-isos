@@ -12,7 +12,7 @@
 .clientLogo01{
 	position: relative;
 	background: var(--theme-color);
-	padding: 75px 0 73px;
+	padding: 20px 0 20px;
 }
 .clientLogo01 .secTitle{
 	font-size: 30px;
